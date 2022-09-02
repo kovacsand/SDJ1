@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="520.0" stylesheets="@../MyStyles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainViewController">
+   <children>
+      <MenuBar>
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" onAction="#handleActions" text="Exit" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <CheckMenuItem fx:id="editAreaMenuItem" mnemonicParsing="false" onAction="#handleActions" text="Edit student area" />
+                  <CheckMenuItem fx:id="editFieldsMenuItem" mnemonicParsing="false" onAction="#handleActions" text="Edit name fields" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="About">
+               <items>
+                  <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" onAction="#handleActions" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <TabPane tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="allStudentsTab" onSelectionChanged="#tabChanged" text="All Students">
+           <fx:include fx:id="allStudentsView" source="AllStudentsView.fxml" />
+          </Tab>
+          <Tab fx:id="changeCountryTab" onSelectionChanged="#tabChanged" text="Change Country">
+             <fx:include fx:id="changeCountryView" source="ChangeCountryView.fxml" />
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>

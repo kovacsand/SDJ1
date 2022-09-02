@@ -1,0 +1,6 @@
+JA72921,Seat,Mii,2012,Claire,Littleton
+RT90456,Mercedes,W212,2010,Jack,Shephard
+OS38067,Volkswagen,Golf,2012,John,Locke
+MD21739,Volvo,S80,2009,Juliet,Burke
+JK42234,Ford,Focus,2008,Kate,Austen
+XYZ789,Tesla,S,2012,Barack,Obama
