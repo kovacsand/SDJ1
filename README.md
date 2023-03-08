@@ -5,7 +5,6 @@ This repository is very unorganised, but it is also just a kind of personal memo
 In the first semester I did not pay much attention into having a good structure for the course, as most of the exercises were very very small.
 
 *ECTS: 10*  
-*Final Grade: 12 (ECTS: A)*
 
 ### Personal review:
 Great course for teaching the fundamentals of OOP, amazing teacher (thank you Allan).
