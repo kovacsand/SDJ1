@@ -5,12 +5,12 @@ This repository is very unorganised, but it is also just a kind of personal memo
 
 *ECTS: 10*  
 
-### What I've learnt:
-    • Classes, abstraction, encapsulation, inheritance and polymorphism
-    • Loops
-    • Data Structures
-    • UML diagrams, Astah
-    • GUI with JavaFX
+### What I've learnt:  
+  • Classes, abstraction, encapsulation, inheritance and polymorphism  
+  • Loops  
+  • Data Structures  
+  • UML diagrams, Astah  
+  • GUI with JavaFX  
 
 ### Personal review:
 Great course for teaching the fundamentals of OOP, amazing teacher (thank you Allan).
